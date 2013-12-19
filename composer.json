@@ -1,0 +1,25 @@
+{
+    "name": "nls/laravel-doctrine",
+    "description": "Doctrine 2 package for Laravel 4.1",
+    "authors": [
+        {
+            "name": "Niels",
+            "email": "n@nls.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.x"
+        "doctrine/orm": "2.*",
+        "doctrine/migrations": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Nls\\LaravelDoctrine": "src/"
+        }
+    },
+
+    "bin": ["bin/doctrine-laravel", "bin/doctrine-laravel.php"],
+    
+    "minimum-stability": "dev"
+}
