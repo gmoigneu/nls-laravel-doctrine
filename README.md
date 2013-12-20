@@ -18,7 +18,7 @@ Change your `minimum-stability` to `dev` due to `doctrine-migrations` restrictio
 
 Add the service provider to your Laravel application in `app/config/app.php`. In the `providers` array add:
 
-    'Nls\LaravelDoctrine\ServiceProvider',
+    'Nls\LaravelDoctrine\LaravelDoctrineServiceProvider',
 
 Then add the following to your `facades` array in the same file:
 
